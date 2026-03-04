@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "lucide-react": "^0.553.0",
+    "prismjs": "^1.30.0",
+    "react-markdown": "^10.1.0"
+  }
+}

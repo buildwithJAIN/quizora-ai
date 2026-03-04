@@ -1,0 +1,39 @@
+.katex {
+  font-size: 1.05rem;
+  color: #1f2937; /* Tailwind gray-800 */
+}
+
+.katex-display {
+  margin: 0.25rem 0;
+}
+
+pre[class*="language-"] {
+  background: #1e293b;
+  border-radius: 8px;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+code[class*="language-"] {
+  font-family: "Fira Code", monospace;
+  font-size: 0.9rem;
+}
+.katex {
+  margin: 0 3px;
+}
+pre {
+  background-color: #1e1e2f; /* dark theme look */
+  color: #e6e6e6;
+  padding: 12px 14px;
+  border-radius: 10px;
+  overflow-x: auto; /* ✅ allows horizontal scrolling instead of overflow */
+  white-space: pre-wrap; /* ✅ wrap long lines */
+  word-break: break-word;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+code {
+  font-family: "Fira Code", "Consolas", monospace;
+}
